@@ -12,5 +12,10 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/The_Rick_and_Morty_TestByWork/'
+    : '/'
+}
 })
