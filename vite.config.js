@@ -14,8 +14,8 @@ export default defineConfig({
     }
   },
   module.exports = {
-  publicPath: process.env.NODE_ENV === 'production'
-    ? '/The_Rick_and_Morty_TestByWork/'
-    : '/'
+  // publicPath: process.env.NODE_ENV === 'production'
+  //   ? '/The_Rick_and_Morty_TestByWork/'
+  //   : '/'
 }
 })
